@@ -57,10 +57,10 @@ def updater():
 @sudo_users_only
 async def update_repo(_, message: Message):
     chat_id = message.chat.id
-    msg = await message.reply("🔄 `برمجه وكتابه افين الخالدي ...`")
+    msg = await message.reply("🔄 `برمجه وكتابه محمد علي ...`")
     update_avail = updater()
     if update_avail:
-        await msg.edit("👤 يمكن شراء بوت بحقوقك كامل \n\n• او نسخه سورس بحقوقك بأرخص الأسعار حسابي الوحيد : SsSsvS.")
+        await msg.edit("‹ 👤 يمكن شراء بوت بحقوقك كامل \n\n𝁫 : او نسخه سورس بحقوقك بأرخص الأسعار حسابي الوحيد : @s_l_3 .  ›")
         system("git pull -f && pip3 install -r requirements.txt")
         execle(sys.executable, sys.executable, "main.py", environ)
         return
