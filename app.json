@@ -1,16 +1,16 @@
 {
-    "name": "سورس ميوزك علش",
+    "name": "سورس ميوزك لاركن",
     "description": "Telegram bot for Streaming Video & Music trought the Telegram Group Video Chat, powered by pytgcalls and pyrogram",
-    "logo": "",
+    "logo": "https://telegra.ph/file/a391361f6f0ecba8a921e.jpg",
     "keywords": [
         "pytgcalls",
         "telegram bot",
         "video stream",
         "pyrogram"
     ],
-    "website": "https://t.me/QII_ll",
-    "repository": "https://github.com//",
-    "success_url": "https://t.me/QII_ll",
+    "website": "https://t.me/PPPPRN",
+    "repository": "https://github.com/hinasjsjs/mmmm",
+    "success_url": "https://t.me/PPPPRN",
     "env": {
         "API_ID": {
             "description": "your API_ID from my.telegram.org",
