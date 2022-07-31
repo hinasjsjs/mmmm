@@ -28,22 +28,22 @@ async def cbstart(_, query: CallbackQuery):
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
-                [InlineKeyboardButton("‹طريقة التشغيل›", callback_data="cbhowtouse")],
+                [InlineKeyboardButton("‹ طريقة التشغيل ›", callback_data="cbhowtouse")],
                 [
-                    InlineKeyboardButton("‹الاوامر الاساسية›", callback_data="cbcmds"),
-                    InlineKeyboardButton("‹المطور›", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("‹ الاوامر الاساسية ›", callback_data="cbcmds"),
+                    InlineKeyboardButton("‹ مطور البوت ›", url=f"https://t.me/{OWNER_NAME}"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "‹قناة السورس›", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "‹ السورس  ›", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "‹قناة البوت›", url=f"https://t.me/QII_ll"
+                        "‹ قناة البوت  ›", url=f"https://t.me/PPPPRN"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "‹💰 شراء نسخة مدفوعة›", url="https://t.me/ghost022"
+                        "‹ 💰 شراء نسخة مدفوعة ›", url="https://t.me/BGGGBG"
                     )
                 ],
             ]
@@ -68,7 +68,7 @@ async def cbguides(_, query: CallbackQuery):
 
 ᥀ __بواسطة  {BOT_NAME} __""",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("رجوع", callback_data="cbstart")]]
+            [[InlineKeyboardButton("‹ رجوع  ›", callback_data="cbstart")]]
         ),
     )
 
@@ -89,7 +89,7 @@ async def cbcmds(_, query: CallbackQuery):
                 ],[
                     InlineKeyboardButton("᥀ اوامر الاعضاء", callback_data="cbbasic")
                 ],[
-                    InlineKeyboardButton("🔙 رجوع", callback_data="cbstart")
+                    InlineKeyboardButton("🔙 ‹ رجوع  ›", callback_data="cbstart")
                 ],
             ]
         ),
@@ -117,7 +117,7 @@ async def cbbasic(_, query: CallbackQuery):
 
 ᥀ __بواسطة {BOT_NAME} __""",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("🔙 رجوع", callback_data="cbcmds")]]
+            [[InlineKeyboardButton("🔙 ‹ رجوع  ›", callback_data="cbcmds")]]
         ),
     )
 
@@ -140,7 +140,7 @@ async def cbadmin(_, query: CallbackQuery):
 
 ᥀ __بواسطة {BOT_NAME} __""",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("🔙 رجوع", callback_data="cbcmds")]]
+            [[InlineKeyboardButton("🔙 ‹ رجوع  ›", callback_data="cbcmds")]]
         ),
     )
 
@@ -158,7 +158,7 @@ async def cbsudo(_, query: CallbackQuery):
 
 ᥀ __بواسطة {BOT_NAME} __""",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("🔙 رجوع", callback_data="cbcmds")]]
+            [[InlineKeyboardButton("🔙 ‹ رجوع  ›", callback_data="cbcmds")]]
         ),
     )
 #
